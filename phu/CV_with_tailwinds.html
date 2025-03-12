@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahye's CV</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex justify-center content-center">
+    <!-- outer container -->
+    <div class="border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5 mt-10 mb-10">
+        <!-- header (profile) -->
+        <header>
+            <div class="flex justify-between items-center">
+                <div>
+                    <div class="bg-cover bg-no-repeat rounded-full h-52 w-52"
+                        style="background-image: url(../bootstrap/dog.jpg)">
+                    </div>
+                </div>
+                <div class="grid justify-items-end">
+                    <h1 class="text-5xl font-extrabold">Nguyễn Trọng Phú</h1>
+                    <p class="text-xl mt-5">Towards Network Engineers</p>
+                </div>
+            </div>
+        </header>
+        <!-- detailed info -->
+        <main class="flex gap-x-10 mt-10">
+            <div class="w-2/6">
+                <!-- contact details -->
+                <strong class="text-xl font-medium">Contact Details</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1"><strong class="mr-1">Phone </strong>
+                        <a href="tel:+821023456789" class="block">+84 36 454 9809 </a>
+                    </li>
+                    <li class="px-2 mt-1"><strong class="mr-1">Gmail </strong>
+                        <a href="mailto:" class="block">nt.phu204@gmail.com</a>
+                    </li>
+                    <li class="px-2 mt-1"><strong class="mr-1">Location</strong><span class="block">Hồ Chí Minh, Việt Nam</span></li>
+                </ul>
+
+                <!-- github stats -->
+                <strong class="text-xl font-medium ">Github Stats</strong>
+                <ul class="flex w-full mt-2 mb-10">
+                    <li class="px-2 mt-2 w-4/12 bg-pink-600 text-white text-center rounded-tl-lg rounded-bl-lg">HTML
+                    </li>
+                    <li class="px-2 mt-2 w-4/12 bg-blue-600 text-white text-center">CSS</li>
+                    <li class="px-2 mt-2 w-5/12 bg-yellow-500 text-white text-center rounded-tr-lg rounded-br-lg">JS
+                    </li>
+
+                </ul>
+                <!-- skills -->
+                <strong class="text-xl font-medium">Kỹ năng (Skills)</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1">HTML</li>
+                    <li class="px-2 mt-1">CSS</li>
+                </ul>
+                </ul>
+                <strong class="text-xl font-medium">Currently learning</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1">About Web Accessibility</li>
+                    <li class="px-2 mt-1">and User Experience</li>
+                </ul>
+                <strong class="text-xl font-medium">Sở thích (Interests & Hobbies)</strong>
+                <ul class="mt-2">
+                    <li class="px-2 mt-1">Sustainability</li>
+                    <li class="px-2 mt-1">New technologies</li>
+                    <li class="px-2 mt-1">Blogging on dev.to</li>
+                    <li class="px-2 mt-1">Investment</li>
+                    <li class="px-2 mt-1">Travel</li>
+                </ul>
+            </div>
+            <!-- info -->
+            <div class="w-4/6">
+                <section>
+                    <!-- about me -->
+                    <h2 class="text-2xl pb-1 border-b font-semibold">About</h2>
+                    <p class="mt-4 text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+                        deserunt modi qui. Dolorum aliquid quasi velit cupiditate officia magnam impedit, sapiente
+                        hic, eaque quaerat ullam fugiat reprehenderit voluptates odit! Error.
+                        Tempore fuga iusto eveniet omnis impedit repellat ab repellendus nesciunt similique. Iure
+                        voluptates, enim nesciunt tempora amet earum, porro rem ad et sequi corrupti neque quidem?
+                        Debitis quo quibusdam nemo.
+                        Nam doloremque perferendis tempora asperiores, ullam praesentium et, voluptas pariatur illo
+                        aliquid similique, fugiat repellendus ipsa necessitatibus minus hic culpa quasi. Sed
+                        voluptate itaque accusantium earum cupiditate ipsa neque magnam!</p>
+                        
+                </section>
+                 <section>
+                        <!-- education -->
+                        <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Học Vấn (Education) </h2>
+                        <ul class="mt-2">
+                            <li class="pt-2">
+                                <p class="flex justify-between text-sm"><strong class="text-base">Đại Học Sài Gòn
+                                </strong>2022-2026</p>
+                                <p class="flex justify-between text-sm">Sinh viên chuyên ngành Kỹ Thuật Máy Tính</p>
+                            </li>
+                        </ul>
+                 </section>
+                <section>
+                    <!-- projects -->
+                    <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Projects</h2>
+                    <ul class="mt-1">
+                        <li class="py-2">
+                            <div class="flex justify-between my-1">
+                                <strong>Rules of 10000 hours</strong>
+                                <p class="flex">
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                                </p>
+                            </div>
+                            <ul class="flex mb-2">
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Live</a>
+                                </li>
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Code</a>
+                                </li>
+                            </ul>
+                            <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                delectus labore enim in minus quod vero dignissimos et, ratione obcaecati quis
+                                maiores? Voluptatem, natus cupiditate perferendis omnis ex hic incidunt!
+                                Earum dolore cupiditate sed et maxime distinctio iure fugiat aspernatur at veniam
+                                laudantium eveniet corporis dicta reiciendis quod consequatur, labore perferendis
+                                dolorum velit quibusdam minus iste dolorem! Officiis, obcaecati maxime</p>
+                        </li>
+                        <li class="py-2">
+                            <div class="flex justify-between my-1">
+                                <strong>Vending Machine</strong>
+                                <p class="flex">
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                                </p>
+                            </div>
+                            <ul class="flex mb-2">
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Live</a>
+                                </li>
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Code</a>
+                                </li>
+                            </ul>
+                            <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                                expedita illum optio porro suscipit rerum labore veritatis autem eum totam veniam
+                                repudiandae repellendus perspiciatis eligendi sequi maiores, cum ipsa ut!
+                                Dolorum aliquid quaerat, dolore nemo, vero alias non porro quam totam impedit
+                                repellat voluptas, nobis harum quae dolorem accusantium consequatur. Recusandae
+                                cupiditate possimus natus consequuntur aliquid, molestias provident saepe nobis.
+                            </p>
+                        </li>
+                        
+                    </ul>
+                </section>
+            </div>
+        </main>
+        
+    </div>
+</body>
+
+</html>
