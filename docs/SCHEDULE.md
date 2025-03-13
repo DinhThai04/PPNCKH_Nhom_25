@@ -1,7 +1,7 @@
 **\# Tên đề tài**   
 Nghiên cứu phân loại cảm xúc khuôn mặt
 
-**\# Thành viên / thông tin liên hệ ?**
+**\# Thành viên / thông tin liên hệ**
 
 * Đỗ Đình Thái \- dinhthai22040422@gmail.com  
 * Nguyễn Minh Trí \- tribaunang258@gmail.com  
@@ -18,7 +18,7 @@ Nghiên cứu phân loại cảm xúc khuôn mặt
 | 4 | Viết báo cáo | 4 tuần |
 | 5 | Chỉnh sửa báo cáo  | 4 tuần |
 
-**\# Liên kết ?**   
+**\# Liên kết**   
 	\+ schedule.xlsx (Kế hoạch)  
 	[schedule.xlsx](https://docs.google.com/spreadsheets/d/1O4CaMS9mG9zFyNwQw-_q2JYcImrV5vCv/edit?usp=sharing&ouid=114158289529864389413&rtpof=true&sd=true)
 
